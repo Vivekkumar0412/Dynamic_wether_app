@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dynamic wether app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- <h1>Hi</h1> -->
+    <div class="box">
+        <div class="wave one"></div>
+        <div class="wave two"></div>
+        <div class="wave three"></div>
+
+        <div id="wethericon"><i class="fa-solid fa-sun" style="color: yellow;"></i></div>
+        <div class="info">
+            <h2 class="location"><i id="loci" class="fa-solid fa-street-view" style="color: red;"> </i>Patna, In</h2>
+            <p id="date"></p>
+            <h1 id="temp_data" class="temp">{%tempval%}</h1>
+            <!-- <h3 class="temp_min_max">minimun and maximum temp</h3> -->
+        </div>
+    </div>
+</body>
+
+
+<script src="main.js"></script>
+
+</html>
